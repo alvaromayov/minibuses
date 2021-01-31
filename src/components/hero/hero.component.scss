@@ -1,0 +1,79 @@
+@import "../../styles/colors.scss";
+@import "../../App.scss";
+
+.hero {
+    $this: &;
+
+    height: 90vh;
+    background-color: $color-black;
+    color: $color-white;
+    
+    & .container {
+        display: flex;
+        flex-direction: column;
+        max-width: 80vw;
+        margin: auto;
+        justify-content: center;
+        min-height: 90vh;
+    }
+
+    & .title {
+        font-size: 46px;
+    }
+
+    &__scroll-link {
+        display: flex;
+        justify-content: space-between;
+        cursor: pointer;
+        padding: 10px 20px 10px 0;
+        margin-top: 25px;
+
+        @include breakpoint($breakpoint-desktop) {
+        margin-top: 10px;
+
+            &:hover {
+                #{$this}__down-icon {
+                    animation: down 0.3s forwards ease-in-out;
+                }
+
+                #{$this}__link-text {
+                    &:after {
+                        transition: transform 0.7s;
+                        transform: translateX(0);
+                    }
+                }
+            }
+        }
+    }
+
+    &__down-icon {
+        transform: rotate(-90deg) translateX(0);
+        width: 13px;
+        animation: bounce 5s infinite 6s;
+        
+        &--white {
+            fill: $color-white;
+        }
+
+        @keyframes bounce {
+            5% {
+                transform: rotate(-90deg) translateX(-15px);
+            }
+            10% {
+                transform: rotate(-90deg) translateX(-5px);
+            }
+            15% {
+                transform: rotate(-90deg) translateX(-15px);                
+            }
+            20% {
+                transform: rotate(-90deg) translateX(0);
+            }
+        }
+
+        @keyframes down {
+            to {
+                transform: rotate(-90deg) translateX(-15px);
+            }
+        }
+    }
+}
