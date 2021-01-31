@@ -1,2 +1,9 @@
 @import './styles/mixins/index';
 @import './styles/breakpoints.scss';
+@import './styles/colors.scss';
+
+.container {
+    max-width: 85vw;
+    margin: auto;
+    justify-content: center;
+}

@@ -1,0 +1,63 @@
+@import "../../App.scss";
+
+.header {
+    display: none;
+}
+
+@include breakpoint($breakpoint-desktop) {
+    .header {
+        position: fixed;
+        display: flex;
+        top: 0;
+        align-items: center;
+        background-color: $color-white;
+        z-index: 100;
+        width: 100%;
+        
+        .container{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;   
+        }
+
+        & .image {
+            height: 40px;
+            cursor: pointer;
+        }
+        & .links {
+            display: flex;
+            cursor: pointer;
+            
+            & .link {
+                position: relative;
+                text-decoration: none;
+                color: $color-bermuda-gray;
+                transition: color 0.3s ease-in-out;
+                font-weight: 700;
+                font-size: 16px;
+                overflow: hidden;
+                padding: 10px 0;
+                margin-right: 15px;
+
+                &:hover {
+                    color: $color-bronco;
+                    &:after {
+                        transition: transform 0.7s;
+                        transform: translateX(100%);
+                    }
+                }
+        
+                &:after {
+                    content: '';
+                    height: 2px;
+                    width: 100%;
+                    background-color: $color-bronco;
+                    position: absolute;
+                    top: 30px;
+                    left: 0;
+                    transform: translateX(-101px);
+                }
+            }
+        }
+    }
+}
