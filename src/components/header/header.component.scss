@@ -6,6 +6,7 @@
 
 @include breakpoint($breakpoint-desktop) {
     .header {
+        height: 60px;
         position: fixed;
         display: flex;
         top: 0;
