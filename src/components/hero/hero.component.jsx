@@ -11,11 +11,12 @@ const scroll = () => {
     zenscroll.to(nextSection);
 }
 
-const Hero = ({ title, description }) => (
+const Hero = ({ title, description, subtitle }) => (
     <div className="hero">
         <div className="container">
             <h1 className="title">{title}</h1>
-            <p>{description}</p>
+            <p className="subtitle">{subtitle}</p>
+            <p className="body">{description}</p>
             <div className="hero__scroll-link" onClick={scroll}>
                 <span>Ver mas <Arrow className="hero__down-icon hero__down-icon--white" /></span>
             </div>
