@@ -1,0 +1,16 @@
+@import '../../App.scss';
+
+.what-we-do {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    background-color: $color-bermuda-gray-translucid;
+
+     h2 {
+        text-align: center;
+        display: inline;
+        width: 100%;
+        margin: 50px 0;
+    }
+}
+    
