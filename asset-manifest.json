@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/minibuses/static/css/main.00be849e.chunk.css",
-    "main.js": "/minibuses/static/js/main.d3340c7b.chunk.js",
-    "main.js.map": "/minibuses/static/js/main.d3340c7b.chunk.js.map",
+    "main.css": "/minibuses/static/css/main.5156dc57.chunk.css",
+    "main.js": "/minibuses/static/js/main.fba7622c.chunk.js",
+    "main.js.map": "/minibuses/static/js/main.fba7622c.chunk.js.map",
     "runtime-main.js": "/minibuses/static/js/runtime-main.2873d0f0.js",
     "runtime-main.js.map": "/minibuses/static/js/runtime-main.2873d0f0.js.map",
-    "static/js/2.8d9f0e2e.chunk.js": "/minibuses/static/js/2.8d9f0e2e.chunk.js",
-    "static/js/2.8d9f0e2e.chunk.js.map": "/minibuses/static/js/2.8d9f0e2e.chunk.js.map",
+    "static/js/2.e862856c.chunk.js": "/minibuses/static/js/2.e862856c.chunk.js",
+    "static/js/2.e862856c.chunk.js.map": "/minibuses/static/js/2.e862856c.chunk.js.map",
     "index.html": "/minibuses/index.html",
-    "static/css/main.00be849e.chunk.css.map": "/minibuses/static/css/main.00be849e.chunk.css.map",
-    "static/js/2.8d9f0e2e.chunk.js.LICENSE.txt": "/minibuses/static/js/2.8d9f0e2e.chunk.js.LICENSE.txt",
-    "static/media/down-arrow.8e24d635.svg": "/minibuses/static/media/down-arrow.8e24d635.svg"
+    "static/css/main.5156dc57.chunk.css.map": "/minibuses/static/css/main.5156dc57.chunk.css.map",
+    "static/js/2.e862856c.chunk.js.LICENSE.txt": "/minibuses/static/js/2.e862856c.chunk.js.LICENSE.txt",
+    "static/media/down-arrow.5b030e39.svg": "/minibuses/static/media/down-arrow.5b030e39.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.2873d0f0.js",
-    "static/js/2.8d9f0e2e.chunk.js",
-    "static/css/main.00be849e.chunk.css",
-    "static/js/main.d3340c7b.chunk.js"
+    "static/js/2.e862856c.chunk.js",
+    "static/css/main.5156dc57.chunk.css",
+    "static/js/main.fba7622c.chunk.js"
   ]
 }
