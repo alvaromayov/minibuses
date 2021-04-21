@@ -1,0 +1,42 @@
+@import "../../App.scss";
+
+.contact {
+    height: 100vh;
+    background-color: $color-black;
+    color: $color-white;
+    
+    & .container {
+        display: flex;
+        flex-direction: column;
+        max-width: 80vw;
+        margin: auto;
+        justify-content: center;
+        min-height: 100vh;
+
+        & .content {
+            display: flex;
+            justify-content: space-around;
+
+            &--half {
+                width: 50%;
+            }
+        }
+    }
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+
+    input, 
+    label {
+        margin-bottom: 15px;
+    }
+
+    input {
+        color: $color-white;
+        background: none;
+        border: none;
+        border-bottom: 1px solid $color-white;
+    }
+}
