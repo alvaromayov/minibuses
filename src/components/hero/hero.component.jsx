@@ -7,7 +7,7 @@ import './hero.component.scss';
 
 const scroll = () => {
     zenscroll.setup(null, 60);
-    const nextSection = document.querySelector('#flota');
+    const nextSection = document.querySelector('.what-we-do');
     zenscroll.to(nextSection);
 }
 
