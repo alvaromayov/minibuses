@@ -1,5 +1,5 @@
 import React from 'react';
-import HalfBanner from '../halfBanner/HalfBanner.component';
+import HalfBanner from '../half-banner/HalfBanner.component';
 
 import './WhatWeDo.component.scss';
 
