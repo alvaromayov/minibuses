@@ -3,6 +3,16 @@
 .full-banner {
     display: flex;
     margin: 30px 20px;
+
+    &:hover {
+        .half-banner {
+            transform: scale(1.05);
+        }
+        .half-banner--right,
+        .half-banner--left {
+            opacity: 1;
+        }
+    }
 }
 
 .half-banner {
@@ -14,6 +24,7 @@
     height: 70%;
     align-self: center;
     background: $color-white;
+    transition: all 0.6s ease-in;
 
     &__container {
         display: flex;
@@ -23,14 +34,18 @@
         max-width: 70%;
     }
 
-    &--right {
+    &--right,
+    &--left {
+        z-index: 2;
         opacity: 0.8;
+    }
+
+    &--right {
         order: 2;
         margin-left: -80px;
     }
 
     &--left {
-        opacity: 0.8;
         margin-right: -80px;
     }
 
