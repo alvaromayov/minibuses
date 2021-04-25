@@ -27,7 +27,6 @@
     }
 
     & .body {
-        width: 470px;
         font-size: 15px;
     }
 
@@ -85,6 +84,13 @@
             to {
                 transform: rotate(-90deg) translateX(-15px);
             }
+        }
+    }
+}
+@include breakpoint($breakpoint-mobile-max) {
+    .hero {
+        & .body {
+            width: auto;
         }
     }
 }

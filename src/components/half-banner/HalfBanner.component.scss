@@ -56,3 +56,17 @@
         box-shadow: 7px 5px 38px black;
     }
 }
+@include breakpoint($breakpoint-mobile-max) {
+    .full-banner {
+        margin: 0 20px -50px 20px;
+        position: relative;
+    }
+
+    .half-banner {
+        &--right,
+        &--left {
+            position: absolute;
+            margin-left: 0;
+        }
+    }
+}
