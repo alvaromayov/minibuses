@@ -41,3 +41,12 @@
         border-bottom: 1px solid $color-white;
     }
 }
+
+@include breakpoint($breakpoint-mobile-max) {
+    .contact .container .content {
+        flex-direction: column;
+    }
+    .contact .container .content--half {
+        width: 100%;
+    }
+}
