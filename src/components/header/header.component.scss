@@ -1,64 +1,84 @@
 @import "../../App.scss";
 
 .header {
-    display: none;
-}
+    height: 60px;
+    position: fixed;
+    display: flex;
+    top: 0;
+    align-items: center;
+    background-color: $color-white;
+    z-index: 100;
+    width: 100%;
 
-@include breakpoint($breakpoint-desktop) {
-    .header {
-        height: 60px;
-        position: fixed;
-        display: flex;
-        top: 0;
-        align-items: center;
-        background-color: $color-white;
-        z-index: 100;
+    .container {
         width: 100%;
-        
-        .container{
-            width: 100%;
-            display: flex;
-            justify-content: space-between;   
-        }
+        display: flex;
+        justify-content: space-between;
+    }
 
-        & .image {
-            height: 40px;
-            cursor: pointer;
-        }
-        & .links {
-            display: flex;
-            cursor: pointer;
-            
-            & .link {
-                position: relative;
-                text-decoration: none;
-                color: $color-bermuda-gray;
-                transition: color 0.3s ease-in-out;
-                font-weight: 700;
-                font-size: 16px;
-                overflow: hidden;
-                padding: 10px 0;
-                margin-right: 15px;
+    &__mobile {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+    }
 
-                &:hover {
-                    color: $color-bronco;
-                    &:after {
-                        transition: transform 0.7s;
-                        transform: translateX(100%);
-                    }
-                }
-        
+    & .image {
+        height: 40px;
+        cursor: pointer;
+    }
+    & .links {
+        display: flex;
+        cursor: pointer;
+
+        & .link {
+            position: relative;
+            text-decoration: none;
+            color: $color-bermuda-gray;
+            transition: color 0.3s ease-in-out;
+            font-weight: 700;
+            font-size: 16px;
+            overflow: hidden;
+            padding: 10px 0;
+            margin-right: 15px;
+            display: none;
+
+            &:hover {
+                color: $color-bronco;
                 &:after {
-                    content: '';
-                    height: 2px;
-                    width: 100%;
-                    background-color: $color-bronco;
-                    position: absolute;
-                    top: 30px;
-                    left: 0;
-                    transform: translateX(-101px);
+                    transition: transform 0.7s;
+                    transform: translateX(100%);
                 }
+            }
+
+            &:after {
+                content: "";
+                height: 2px;
+                width: 100%;
+                background-color: $color-bronco;
+                position: absolute;
+                top: 30px;
+                left: 0;
+                transform: translateX(-101px);
             }
         }
     }
+}
+
+@include breakpoint($breakpoint-mobile-max) {
+    .header {
+        height: 62px;
+        
+        .container {
+            justify-content: flex-end;
+        }
+
+        & .links {
+            display: none;
+        }
+    }
+}
+
+@include breakpoint($breakpoint-desktop) {
+    .header .links .link {display: initial; }
 }
