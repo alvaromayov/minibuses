@@ -80,5 +80,7 @@
 }
 
 @include breakpoint($breakpoint-desktop) {
-    .header .links .link {display: initial; }
+    .header .links .link {
+        display: initial; 
+    }
 }
