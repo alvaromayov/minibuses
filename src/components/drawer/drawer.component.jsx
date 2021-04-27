@@ -12,60 +12,60 @@ import { Link } from 'react-router-dom';
 import BurgerButton from '../burger-button/burger-button.component';
 
 const useStyles = makeStyles({
-  list: {
-    width: 250,
-  },
-  fullList: {
-    width: 'auto',
-  },
+    list: {
+        width: 250,
+    },
+    fullList: {
+        width: 'auto',
+    },
 });
 
 export default function TemporaryDrawer() {
-  const classes = useStyles();
-  const [state, setState] = React.useState({
-    left: false,
-  });
+    const classes = useStyles();
+    const [state, setState] = React.useState({
+        left: false,
+    });
 
-  const toggleDrawer = (anchor, open) => (event) => {
-    if (event.type === 'keydown' && (event.key === 'Tab' || event.key === 'Shift')) {
-      return;
-    }
+    const toggleDrawer = (anchor, open) => (event) => {
+        if (event.type === 'keydown' && (event.key === 'Tab' || event.key === 'Shift')) {
+            return;
+        }
 
-    setState({ ...state, [anchor]: open });
-  };
+        setState({ ...state, [anchor]: open });
+    };
 
-  const list = (anchor) => (
-    <div
-      className={clsx(classes.list, {
-        [classes.fullList]: anchor === 'top' || anchor === 'bottom',
-      })}
-      role="presentation"
-      onClick={toggleDrawer(anchor, false)}
-      onKeyDown={toggleDrawer(anchor, false)}
-    >
-      <List>
-        {['Inicio', 'Contactanos'].map((text, index) => (
-          <ListItem button key={text}>
-            {/* <ListItemIcon></ListItemIcon> */}
-            <Link to={index % 2 === 0 ? "/" : "/contactanos"}>
-            <ListItemText primary={text} />
-            </Link>
-          </ListItem>
-        ))}
-      </List>
-    </div>
-  );
+    const list = (anchor) => (
+        <div
+            className={clsx(classes.list, {
+                [classes.fullList]: anchor === 'top' || anchor === 'bottom',
+            })}
+            role="presentation"
+            onClick={toggleDrawer(anchor, false)}
+            onKeyDown={toggleDrawer(anchor, false)}
+        >
+            <List>
+                {['Inicio', 'Contactanos'].map((text, index) => (
+                    <Link to={index % 2 === 0 ? "/" : "/contactanos"}>
+                        <ListItem button key={text}>
+                            {/* <ListItemIcon></ListItemIcon> */}
+                            <ListItemText primary={text} />
+                        </ListItem>
+                    </Link>
+                ))}
+            </List>
+        </div>
+    );
 
-  return (
-    <div>
-      {['left'].map((anchor) => (
-        <React.Fragment key={anchor}>
-          <Button onClick={toggleDrawer(anchor, true)}><BurgerButton /></Button>
-          <Drawer anchor={anchor} open={state[anchor]} onClose={toggleDrawer(anchor, false)}>
-            {list(anchor)}
-          </Drawer>
-        </React.Fragment>
-      ))}
-    </div>
-  );
+    return (
+        <div>
+            {['left'].map((anchor) => (
+                <React.Fragment key={anchor}>
+                    <Button onClick={toggleDrawer(anchor, true)}><BurgerButton /></Button>
+                    <Drawer anchor={anchor} open={state[anchor]} onClose={toggleDrawer(anchor, false)}>
+                        {list(anchor)}
+                    </Drawer>
+                </React.Fragment>
+            ))}
+        </div>
+    );
 }
