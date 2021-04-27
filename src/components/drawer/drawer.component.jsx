@@ -44,14 +44,16 @@ export default function TemporaryDrawer() {
             onKeyDown={toggleDrawer(anchor, false)}
         >
             <List>
-                {['Inicio', 'Contactanos'].map((text, index) => (
-                    <Link to={index % 2 === 0 ? "/" : "/contactanos"}>
-                        <ListItem button key={text}>
-                            {/* <ListItemIcon></ListItemIcon> */}
-                            <ListItemText primary={text} />
-                        </ListItem>
-                    </Link>
-                ))}
+                <Link to="/">
+                    <ListItem button>
+                        <ListItemText primary="Inicio" />
+                    </ListItem>
+                </Link>
+                <Link to="/contactanos">
+                    <ListItem button>
+                        <ListItemText primary="Contactanos" />
+                    </ListItem>
+                </Link>
             </List>
         </div>
     );

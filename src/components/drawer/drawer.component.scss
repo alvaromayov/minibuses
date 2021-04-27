@@ -3,13 +3,15 @@
 a:-webkit-any-link {
     color: $color-black;
 }
+
 a {
     text-decoration: none;
 }
 
-.makeStyles-list-1 {
-    margin-top: 50px;
+body .MuiList-padding {
+    margin-top: 50px !important;
 }
+
 @include breakpoint($breakpoint-desktop) {
     .MuiButton-label {
         display: none;
