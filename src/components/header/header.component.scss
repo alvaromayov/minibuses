@@ -24,7 +24,7 @@
     }
 
     & .image {
-        height: 40px;
+        height: 50px;
         cursor: pointer;
     }
     & .links {
@@ -68,7 +68,7 @@
 @include breakpoint($breakpoint-mobile-max) {
     .header {
         height: 62px;
-        
+
         .container {
             justify-content: flex-end;
         }
@@ -81,6 +81,14 @@
 
 @include breakpoint($breakpoint-desktop) {
     .header .links .link {
-        display: initial; 
+        display: initial;
+    }
+    .header {
+        & .image {
+            transform: scaleX(-1);
+        }
+        &__mobile {
+            display: none;
+        }
     }
 }

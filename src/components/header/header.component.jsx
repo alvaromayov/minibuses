@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import BurgerButton from '../burger-button/burger-button.component';
+import TemporaryDrawer from '../drawer/drawer.component';
+import logo from '../../assets/images/vito.png';
 
 
 import './header.component.scss';
@@ -9,11 +10,11 @@ const Header = () => (
     <div className="header">
         <div className="container">
             <div className="header__mobile">
-                <BurgerButton />
-                <Link to="/" >
-                    <img className="image" src="https://www.global-rent-a-car.com/fileadmin/_processed_/b/9/csm_PVMD_Mercedes_Vito_2019_black_right_faf191d992.png" alt="" />
-                </Link>
+                <TemporaryDrawer />
             </div>
+                <Link to="/" >
+                    <img className="image" src={logo} alt="" />
+                </Link>
             <div className="links">
                 <Link to="/" className="link">Inicio</Link>
                 <Link to="/contactanos" className="link">Contactanos</Link>

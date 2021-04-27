@@ -1,0 +1,17 @@
+@import "../../App.scss";
+
+a:-webkit-any-link {
+    color: $color-black;
+}
+a {
+    text-decoration: none;
+}
+
+.makeStyles-list-1 {
+    margin-top: 50px;
+}
+@include breakpoint($breakpoint-desktop) {
+    .MuiButton-label {
+        display: none;
+    }
+}
