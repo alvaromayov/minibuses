@@ -1,6 +1,6 @@
 import React from "react";
 import Hero from '../components/hero/hero.component';
-import WhatWeDo from "../components/whatWeDo/WhatWeDo.component";
+import WhatWeDo from "../components/what-we-do/WhatWeDo.component";
 
 const HomePage = () => (
     <div>
