@@ -1,0 +1,24 @@
+@import '../../App.scss';
+
+.what-we-do {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    background-color: $color-bermuda-gray-translucid;
+
+     h2 {
+        text-align: center;
+        display: inline;
+        width: 100%;
+        margin: 40px 0;
+    }
+}
+
+@include breakpoint($breakpoint-mobile-max) {
+    .what-we-do {
+        padding-bottom: 50px;
+        h2 {
+            margin-bottom: -25px;
+        }
+    }
+}
