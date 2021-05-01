@@ -7,7 +7,7 @@
     height: 90vh;
     background-color: $color-black;
     color: $color-white;
-    
+
     & .container {
         display: flex;
         flex-direction: column;
@@ -23,7 +23,7 @@
     }
 
     & .subtitle {
-        margin:0 0 30px;
+        margin: 0 0 30px;
     }
 
     & .body {
@@ -39,7 +39,7 @@
         width: 90px;
 
         @include breakpoint($breakpoint-desktop) {
-        margin-top: 10px;
+            margin-top: 10px;
 
             &:hover {
                 #{$this}__down-icon {
@@ -60,7 +60,7 @@
         transform: rotate(-90deg) translateX(0);
         width: 13px;
         animation: bounce 5s infinite 6s;
-        
+
         &--white {
             fill: $color-white;
         }
@@ -73,7 +73,7 @@
                 transform: rotate(-90deg) translateX(-5px);
             }
             15% {
-                transform: rotate(-90deg) translateX(-15px);                
+                transform: rotate(-90deg) translateX(-15px);
             }
             20% {
                 transform: rotate(-90deg) translateX(0);
@@ -91,6 +91,21 @@
     .hero {
         & .body {
             width: auto;
+            font-size: 13px;
+        }
+
+        & .title {
+            font-size: 45px;
+            line-height: 50px;
+            margin-top: 70px;
+        }
+
+        & .subtitle {
+            margin: 0;
+        }
+
+        &__scroll-link {
+            margin-top: 10px;
         }
     }
 }
