@@ -6,6 +6,8 @@ import Button from '@material-ui/core/Button';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
+import HomeOutlinedIcon from '@material-ui/icons/HomeOutlined';
+import PhoneAndroidOutlinedIcon from '@material-ui/icons/PhoneAndroidOutlined';
 
 import "./drawer.component.scss";
 import { Link } from 'react-router-dom';
@@ -46,11 +48,13 @@ export default function TemporaryDrawer() {
             <List>
                 <Link to="/">
                     <ListItem button>
+                        <HomeOutlinedIcon className="drawer-icon" />
                         <ListItemText primary="Inicio" />
                     </ListItem>
                 </Link>
                 <Link to="/contactanos">
                     <ListItem button>
+                        <PhoneAndroidOutlinedIcon className="drawer-icon" />
                         <ListItemText primary="Contactanos" />
                     </ListItem>
                 </Link>
