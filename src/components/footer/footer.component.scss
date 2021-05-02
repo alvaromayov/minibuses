@@ -1,0 +1,47 @@
+@import "../../App.scss";
+
+.footer {
+    padding: 20px;
+    background-color: $color-scarpa-flow;
+    color: $color-white;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 60px;
+    align-items: center;
+    p,
+    a:-webkit-any-link {
+        margin: 0;
+        color: $color-white;
+    }
+
+    &__image {
+        height: 60px;
+    }
+
+    & a {
+        display: flex;
+        align-items: center;
+    }
+
+    p {
+        padding: 3px 0;
+    }
+
+    &__icon {
+        margin-right: 5px;
+
+        svg {
+            height: 0.8em;
+        }
+    }
+}
+
+@include breakpoint($breakpoint-mobile-max) {
+    .footer {
+        flex-direction: column;
+        
+        p {
+            padding: 5px 0;
+        }
+    }
+}
