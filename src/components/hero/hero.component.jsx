@@ -1,5 +1,6 @@
 import React from 'react';
 import zenscroll from 'zenscroll';
+import TimeLapseVideo from '../../assets/videos/timelapse-traffic.mp4';
 
 import { ReactComponent as Arrow } from '../../assets/icons/down-arrow.svg';
 
@@ -13,6 +14,7 @@ const scroll = () => {
 
 const Hero = ({ title, description, subtitle }) => (
     <div className="hero">
+                <video src={TimeLapseVideo} autoPlay muted loop type="video/mp4" />
         <div className="container">
             <h1 className="title">{title}</h1>
             <p className="subtitle">{subtitle}</p>
