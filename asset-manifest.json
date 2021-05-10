@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/minibuses/static/css/main.598452db.chunk.css",
-    "main.js": "/minibuses/static/js/main.915b06c1.chunk.js",
-    "main.js.map": "/minibuses/static/js/main.915b06c1.chunk.js.map",
+    "main.js": "/minibuses/static/js/main.fa89513c.chunk.js",
+    "main.js.map": "/minibuses/static/js/main.fa89513c.chunk.js.map",
     "runtime-main.js": "/minibuses/static/js/runtime-main.2873d0f0.js",
     "runtime-main.js.map": "/minibuses/static/js/runtime-main.2873d0f0.js.map",
     "static/js/2.010a8e83.chunk.js": "/minibuses/static/js/2.010a8e83.chunk.js",
@@ -26,6 +26,6 @@
     "static/js/runtime-main.2873d0f0.js",
     "static/js/2.010a8e83.chunk.js",
     "static/css/main.598452db.chunk.css",
-    "static/js/main.915b06c1.chunk.js"
+    "static/js/main.fa89513c.chunk.js"
   ]
 }
