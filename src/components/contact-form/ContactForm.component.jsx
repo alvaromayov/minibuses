@@ -49,7 +49,7 @@ class ContactForm extends React.Component {
                 <div className="success-message">
                     <h1>Mensaje recibido</h1>
                     <p>Tu mensaje ha sido entregado correctamente a nuestro equipo.</p>
-                    <p>Volver a <Link to="/" className="">inicio</Link></p>
+                    <p>Volver a <Link to="/" className="success-message__home">inicio</Link></p>
                 </div>
             )
         } else {
