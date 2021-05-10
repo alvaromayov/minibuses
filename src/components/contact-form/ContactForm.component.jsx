@@ -41,7 +41,7 @@ class ContactForm extends React.Component {
                     <input name="message" value={this.message} onChange={this.handleChange} type="text" required />
                     <Button onClick={this.submitForm} variant="contained" color="primary">
                         Enviar solicitud
-                </Button>
+                    </Button>
                 </form>
             )
         } else if (this.state.formFilled && !this.props.homepage) {
