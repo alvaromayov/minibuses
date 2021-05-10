@@ -18,6 +18,11 @@
         height: 60px;
     }
 
+    &__number,
+    &__email  {
+        text-decoration: underline;
+        margin-left: 5px;
+    }
     & a {
         display: flex;
         align-items: center;

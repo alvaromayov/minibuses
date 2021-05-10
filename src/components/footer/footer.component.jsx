@@ -11,19 +11,20 @@ const Footer = () => (
         <div>
             <p className="footer__contact">
                 <a href="tel:+34609286110">
-                    <PhoneIcon className="footer__icon" />Telefono:+34 609 286 110
+                    <PhoneIcon className="footer__icon" />
+                    Telefono: <span className="footer__number">+34 609 286 110</span>
                  </a>
             </p>
             <p className="footer__contact">
                 <a href="tel:+34659455516" >
                     <PhoneIcon className="footer__icon" />
-                    Telefono: +34 659 455 516
+                    Telefono: <span className="footer__number">+34 659 455 516</span>
                 </a>
             </p>
             <p className="footer__contact">
                 <a href="mailto: taxibusronda@gmail.com">
                     <MailIcon className="footer__icon" />
-                    Email: taxibusronda@gmail.com
+                    Email: <span className="footer__number">taxibusronda@gmail.com</span>
                 </a>
             </p>
         </div>
