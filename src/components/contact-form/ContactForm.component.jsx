@@ -22,8 +22,6 @@ class ContactForm extends React.Component {
     }
     submitForm = (e) => {
         e.preventDefault();
-        console.log(this.state.displayName)
-        console.log(this.state.lastName)
         this.setState({
             formFilled: true
         })
@@ -33,7 +31,7 @@ class ContactForm extends React.Component {
         if (!this.state.formFilled) {
             return (
                 <form className="contact-form">
-                    <label>Nombre</label>
+                    <label>Nombre </label>
                     <input name="displayName" value={this.displayName} onChange={this.handleChange} type="text" required />
                     <label>Apellidos</label>
                     <input name="lastName" value={this.lastName} onChange={this.handleChange} type="text" required />
@@ -46,12 +44,19 @@ class ContactForm extends React.Component {
                 </Button>
                 </form>
             )
-        } else {
+        } else if (this.state.formFilled && !this.props.homepage) {
             return (
                 <div className="success-message">
                     <h1>Mensaje recibido</h1>
                     <p>Tu mensaje ha sido entregado correctamente a nuestro equipo.</p>
                     <p>Volver a <Link to="/" className="">inicio</Link></p>
+                </div>
+            )
+        } else {
+            return (
+                <div className="success-message">
+                    <h1>Mensaje recibido</h1>
+                    <p>Tu mensaje ha sido entregado correctamente a nuestro equipo.</p>
                 </div>
             )
         }

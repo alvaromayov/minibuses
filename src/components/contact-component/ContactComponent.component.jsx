@@ -3,7 +3,7 @@ import ContactForm from '../contact-form/ContactForm.component';
 
 import "./ContactComponent.component.scss";
 
-const ContactComponent = () => (
+const ContactComponent = (props) => (
     <div className="contact">
         <div className="container">
             <div className="content">
@@ -13,7 +13,7 @@ const ContactComponent = () => (
                     <p>Mandanos un mensaje y un miembro de nuestro maravilloso equipo se pondra en contacto contigo. </p>
                 </div>
                 <div className="content--half">
-                    <ContactForm />
+                    <ContactForm homepage={props.homepage} />
                 </div>
             </div>
         </div>

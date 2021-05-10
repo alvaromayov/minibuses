@@ -3,6 +3,7 @@ import Footer from "../components/footer/footer.component";
 import Hero from '../components/hero/hero.component';
 import OurFleet from "../components/our-fleet/OurFleet.component";
 import WhatWeDo from "../components/what-we-do/WhatWeDo.component";
+import ContactForm from "../components/contact-component/ContactComponent.component";
 
 const HomePage = () => (
     <div>
@@ -13,6 +14,7 @@ const HomePage = () => (
         />
         <WhatWeDo />
         <OurFleet />
+        <ContactForm homepage />
         <Footer />
     </div>
 )
