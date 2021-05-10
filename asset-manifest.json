@@ -1,26 +1,31 @@
 {
   "files": {
-    "main.css": "/minibuses/static/css/main.9a2f36c4.chunk.css",
-    "main.js": "/minibuses/static/js/main.47e3360e.chunk.js",
-    "main.js.map": "/minibuses/static/js/main.47e3360e.chunk.js.map",
+    "main.css": "/minibuses/static/css/main.598452db.chunk.css",
+    "main.js": "/minibuses/static/js/main.915b06c1.chunk.js",
+    "main.js.map": "/minibuses/static/js/main.915b06c1.chunk.js.map",
     "runtime-main.js": "/minibuses/static/js/runtime-main.2873d0f0.js",
     "runtime-main.js.map": "/minibuses/static/js/runtime-main.2873d0f0.js.map",
     "static/js/2.010a8e83.chunk.js": "/minibuses/static/js/2.010a8e83.chunk.js",
     "static/js/2.010a8e83.chunk.js.map": "/minibuses/static/js/2.010a8e83.chunk.js.map",
     "index.html": "/minibuses/index.html",
-    "static/css/main.9a2f36c4.chunk.css.map": "/minibuses/static/css/main.9a2f36c4.chunk.css.map",
+    "static/css/main.598452db.chunk.css.map": "/minibuses/static/css/main.598452db.chunk.css.map",
     "static/js/2.010a8e83.chunk.js.LICENSE.txt": "/minibuses/static/js/2.010a8e83.chunk.js.LICENSE.txt",
+    "static/media/airport.311fe554.jpg": "/minibuses/static/media/airport.311fe554.jpg",
     "static/media/down-arrow.5b030e39.svg": "/minibuses/static/media/down-arrow.5b030e39.svg",
     "static/media/mercedes-icon.aade2834.png": "/minibuses/static/media/mercedes-icon.aade2834.png",
+    "static/media/microbus.24898cbf.png": "/minibuses/static/media/microbus.24898cbf.png",
+    "static/media/minibus.25012daf.png": "/minibuses/static/media/minibus.25012daf.png",
+    "static/media/ronda-aerea.aab5eb23.jpg": "/minibuses/static/media/ronda-aerea.aab5eb23.jpg",
     "static/media/skoda-icon.5fbc7d9c.png": "/minibuses/static/media/skoda-icon.5fbc7d9c.png",
     "static/media/skoda-super-b.4ffd61be.png": "/minibuses/static/media/skoda-super-b.4ffd61be.png",
     "static/media/timelapse-traffic.7ac858a6.mp4": "/minibuses/static/media/timelapse-traffic.7ac858a6.mp4",
-    "static/media/vito.2a179231.png": "/minibuses/static/media/vito.2a179231.png"
+    "static/media/vito.2a179231.png": "/minibuses/static/media/vito.2a179231.png",
+    "static/media/wedding-bus.24813084.png": "/minibuses/static/media/wedding-bus.24813084.png"
   },
   "entrypoints": [
     "static/js/runtime-main.2873d0f0.js",
     "static/js/2.010a8e83.chunk.js",
-    "static/css/main.9a2f36c4.chunk.css",
-    "static/js/main.47e3360e.chunk.js"
+    "static/css/main.598452db.chunk.css",
+    "static/js/main.915b06c1.chunk.js"
   ]
 }
