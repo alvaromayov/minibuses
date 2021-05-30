@@ -12,7 +12,7 @@ const OurFleet = () => (
         <div className="our-fleet__container">
             <ImageCard
                 title="Vito"
-                benefits={['Conductor', 'Agua', 'Nevera', '8 Viajeros', 'Corta distancia', 'Larga distancia', "Protocolo Covid"]}
+                benefits={['Conductor', 'Agua', 'Nevera', '8 Viajeros', 'Corta distancia', 'Larga distancia', "Protocolo Covid", "Vehiculo adaptado"]}
                 brands={['mercedes']}
                 image={vito}
             />
@@ -24,8 +24,8 @@ const OurFleet = () => (
             />
             <ImageCard
                 title="Microbus"
-                benefits={['Conductor', 'Agua', 'Nevera', '21 Viajeros', 'Corta distancia', 'Larga distancia', "Protocolo Covid"]}
-                brands={['mercedes']}
+                benefits={['Conductor', 'Agua', 'Nevera', '21 Viajeros', 'Corta distancia', 'Larga distancia', "Protocolo Covid","Vehiculo adaptado"]}
+                brands={['mercedes',"skoda"]}
                 image={microbus}
             />
             <ImageCard
