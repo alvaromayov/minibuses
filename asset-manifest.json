@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/minibuses/static/css/main.57219767.chunk.css",
+    "main.css": "/minibuses/static/css/main.06dd5d03.chunk.css",
     "main.js": "/minibuses/static/js/main.6c4fc52f.chunk.js",
     "main.js.map": "/minibuses/static/js/main.6c4fc52f.chunk.js.map",
     "runtime-main.js": "/minibuses/static/js/runtime-main.2873d0f0.js",
@@ -8,7 +8,7 @@
     "static/js/2.63652554.chunk.js": "/minibuses/static/js/2.63652554.chunk.js",
     "static/js/2.63652554.chunk.js.map": "/minibuses/static/js/2.63652554.chunk.js.map",
     "index.html": "/minibuses/index.html",
-    "static/css/main.57219767.chunk.css.map": "/minibuses/static/css/main.57219767.chunk.css.map",
+    "static/css/main.06dd5d03.chunk.css.map": "/minibuses/static/css/main.06dd5d03.chunk.css.map",
     "static/js/2.63652554.chunk.js.LICENSE.txt": "/minibuses/static/js/2.63652554.chunk.js.LICENSE.txt",
     "static/media/airport.311fe554.jpg": "/minibuses/static/media/airport.311fe554.jpg",
     "static/media/down-arrow.5b030e39.svg": "/minibuses/static/media/down-arrow.5b030e39.svg",
@@ -25,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.2873d0f0.js",
     "static/js/2.63652554.chunk.js",
-    "static/css/main.57219767.chunk.css",
+    "static/css/main.06dd5d03.chunk.css",
     "static/js/main.6c4fc52f.chunk.js"
   ]
 }
