@@ -59,7 +59,10 @@
     
     .card {
         margin: 10px 25px;
+      
         &__image-container {
+            margin-bottom: 40px;
+            margin-top: 20px;
             height: 150px;
         }
     }
