@@ -25,7 +25,7 @@ const OurFleet = () => (
             <ImageCard
                 title="Microbus"
                 benefits={['Conductor', 'Agua', 'Nevera', '21 Viajeros', 'Corta distancia', 'Larga distancia', "Protocolo Covid","Vehiculo adaptado"]}
-                brands={['mercedes',"skoda"]}
+                brands={['mercedes']}
                 image={microbus}
             />
             <ImageCard
