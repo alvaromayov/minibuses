@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/minibuses/static/css/main.a15a648e.chunk.css",
-    "main.js": "/minibuses/static/js/main.2d1b590c.chunk.js",
-    "main.js.map": "/minibuses/static/js/main.2d1b590c.chunk.js.map",
+    "main.js": "/minibuses/static/js/main.546810fb.chunk.js",
+    "main.js.map": "/minibuses/static/js/main.546810fb.chunk.js.map",
     "runtime-main.js": "/minibuses/static/js/runtime-main.2873d0f0.js",
     "runtime-main.js.map": "/minibuses/static/js/runtime-main.2873d0f0.js.map",
-    "static/js/2.f547f644.chunk.js": "/minibuses/static/js/2.f547f644.chunk.js",
-    "static/js/2.f547f644.chunk.js.map": "/minibuses/static/js/2.f547f644.chunk.js.map",
+    "static/js/2.ede8014a.chunk.js": "/minibuses/static/js/2.ede8014a.chunk.js",
+    "static/js/2.ede8014a.chunk.js.map": "/minibuses/static/js/2.ede8014a.chunk.js.map",
     "index.html": "/minibuses/index.html",
     "static/css/main.a15a648e.chunk.css.map": "/minibuses/static/css/main.a15a648e.chunk.css.map",
-    "static/js/2.f547f644.chunk.js.LICENSE.txt": "/minibuses/static/js/2.f547f644.chunk.js.LICENSE.txt",
+    "static/js/2.ede8014a.chunk.js.LICENSE.txt": "/minibuses/static/js/2.ede8014a.chunk.js.LICENSE.txt",
     "static/media/airport.311fe554.jpg": "/minibuses/static/media/airport.311fe554.jpg",
     "static/media/down-arrow.5b030e39.svg": "/minibuses/static/media/down-arrow.5b030e39.svg",
     "static/media/mercedes-icon.aade2834.png": "/minibuses/static/media/mercedes-icon.aade2834.png",
@@ -24,8 +24,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.2873d0f0.js",
-    "static/js/2.f547f644.chunk.js",
+    "static/js/2.ede8014a.chunk.js",
     "static/css/main.a15a648e.chunk.css",
-    "static/js/main.2d1b590c.chunk.js"
+    "static/js/main.546810fb.chunk.js"
   ]
 }
